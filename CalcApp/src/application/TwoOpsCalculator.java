@@ -123,7 +123,7 @@ public class TwoOpsCalculator {
 		}
 		
 		sc.close();
-		System.out.println(secondOp);
+		//System.out.println(secondOp);
 		}	catch(InputMismatchException e)	{
 			System.out.println("Error, the numbers and operators must be space separated.");
 		}
