@@ -16,4 +16,4 @@ Features:
 
 
 
-TwoOpsCalculator.java is a separate file. It does not have a GUI, instead uses the console. It accepts input of mathematical operations with two operations (e.g. 1+2\*3) and calculate the result, with operation priorities taken into consideration (e.g. the previous example will calculate 1+(2\*3) ). Each character (except numbers with more than one digit and the power operation "\*\*") needs to be followed by a space.
+TwoOpsCalculator.java is a separate file. It does not have a GUI, instead uses the console. It accepts input of mathematical operations with two operations (e.g. 1+2\*3) and calculate the result, with operation priorities taken into consideration (e.g. the previous example will calculate 1+(2\*3) ). Each character (except numbers with more than one digit and the power operator "\*\*") needs to be followed by a space.
