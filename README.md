@@ -2,6 +2,7 @@
 A simple calculator app written in Java, with GUI created using JavaFX.
 
 Note that JavaFX does not come with Java SE by default, so computers without it installed will not be able to run this application. JavaFX can be downloaded at https://github.com/openjdk/jfx.
+
 Note also that the JavaFX JARs need to be added to the IDE's build path for the JavaFX packages to be recognized.
 
 
@@ -13,8 +14,6 @@ Features:
 - Multiple leading zeros will be trimmed down to 1.
 - Consecutive operation button presses will overwrite the last operation (e.g. pressing "1" "+" "/" "1" will input "1/1").
 
-To-dos:
-- The GUI currently has no response to illegal operations. Instead these will throw an exception in the console.
 
 
 TwoOpsCalculator.java is a separate file. It does not have a GUI, instead uses the console. It accepts input of mathematical operations with two steps (e.g. 1+2\*3) and calculate the result, with operation priorities taken into consideration (e.g. the previous example will calculate 1+(2\*3) ). Each character (except numbers with more than one digit) needs to be followed by a space.
